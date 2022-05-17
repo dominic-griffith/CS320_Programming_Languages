@@ -18,7 +18,7 @@ for(int i=0; i < m; i++)
 Input will come from a text file, and the name of the file must be read from the command line.  The text file will take the following form.  The first three lines of the file contain the values m, n, and p, each on a line by themselves.  Following are two matrices, A followed by B with no blank lines, of the dimensions specified, one row per line.  Each row entry is separated by a space.   Example:  Given the following two matrices A and B:
 
 A = |1 2|     B = |3|  
-                  |4|  
+                      |4|  
 The datafile will then have this format:
 
 1  
@@ -44,7 +44,7 @@ Your program will print the two matrices to be multiplied, and finally print the
  
 
 Matrix A contents:  
-    1    2   
+    1    2   
     3    4  
     5    6  
 
