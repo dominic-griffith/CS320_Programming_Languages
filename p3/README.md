@@ -23,40 +23,40 @@ Chart: distance between cities
 
  To make processing easier, there is only one item per line in the file.   The above data would appear in the file this way:
 
-4
-SanDiego
-0
-350
-900
-1100
-Phoenix
-350
-0
-560
-604
-Denver
-900
-560
-0
-389
-Dallas
-1100
-604
-389
-0
+4  
+SanDiego  
+0  
+350  
+900  
+1100  
+Phoenix  
+350  
+0  
+560  
+604  
+Denver  
+900  
+560  
+0  
+389  
+Dallas  
+1100  
+604  
+389  
+0  
  
 
 ## Output:
 
 Your program must print the shortest route found, including the name of each city in the order visited,  the distance traveled to get there, and the total number of miles traveled.  Sample output from the above data file:
 
- Enter filename: 
+ Enter filename:  
  data4.txt
 
- San Diego to Phoenix --  350  miles
+ San Diego to Phoenix --  350  miles  
  Phoenix to Dallas --  604  miles  
- Dallas to Denver --  389  miles
- Denver to San Diego --  900  miles
+ Dallas to Denver --  389  miles  
+ Denver to San Diego --  900  miles  
 
  Best distance is:  2243 miles
 
@@ -71,15 +71,15 @@ Programs that fail to compile will receive very little or no credit.   Your prog
 
 In this program you will use some or all of these Fortran features:
 
-variable declarations
-keyboard input
-file input
-output to screen
-dynamic allocation
-arrays
-repetition
-subroutine
-recursion
+* variable declarations
+* keyboard input
+* file input
+* output to screen
+* dynamic allocation
+* arrays
+* repetition
+* subroutine
+* recursion
 
 
 ## Additional files
