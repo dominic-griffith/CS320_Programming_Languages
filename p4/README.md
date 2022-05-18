@@ -8,12 +8,13 @@ In this lab, you will write a C++ program.  At first it will be contained in one
 The Counter class implements increment operators, such as ++x and x++.  The class stores a single int variable.  The following UML diagram describes the class.
 
 
+| Class Counter | |
+| --- | --- |
 | +Counter() | A constructor that initializes a Counter object to the value zero |
 | +Counter(int) | A constructor that initializes a Counter object to the value of the argument passed in. |
 | +getCount():int | Returns the current value of the int stored in a Counter object |
 | +operator++():Counter | Overloads the ++ operator to perform a pre-increment operation, adding one to the current Counter value before using the value in the expression. |
 | +operator++(int):Counter | Overloads the ++ operator to perform a post-increment operation, adding one to the Counter value after using the current value in the expression. |
-[Class Counter]
 
  
 
@@ -177,4 +178,5 @@ In class, we will go over what this means and how it works.  For now, create the
 To remove the old files, type: make clean
 
 ## Deliverables
-              Upload files counter.h, counter.cpp, testcounter.cpp, and makefile to Gradescope.
+ 
+      Upload files counter.h, counter.cpp, testcounter.cpp, and makefile to Gradescope.
