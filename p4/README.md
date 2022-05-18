@@ -7,13 +7,13 @@ In this lab, you will write a C++ program.  At first it will be contained in one
 ## Counter class
 The Counter class implements increment operators, such as ++x and x++.  The class stores a single int variable.  The following UML diagram describes the class.
 
-| Class Counter |
-| -
+
 | +Counter() | A constructor that initializes a Counter object to the value zero |
 | +Counter(int) | A constructor that initializes a Counter object to the value of the argument passed in. |
 | +getCount():int | Returns the current value of the int stored in a Counter object |
 | +operator++():Counter | Overloads the ++ operator to perform a pre-increment operation, adding one to the current Counter value before using the value in the expression. |
 | +operator++(int):Counter | Overloads the ++ operator to perform a post-increment operation, adding one to the Counter value after using the current value in the expression. |
+[Class Counter]
 
  
 
@@ -158,8 +158,8 @@ But that starts to get complicated.  A make utility is a convenient way to gathe
 
  
 
-# Makefile for P4 - CS 320 Fall 2021  
-# @author Patty Kraft  
+\# Makefile for P4 - CS 320 Fall 2021  
+\# @author Patty Kraft  
 CC=g++  
 CFLAGS=-g -Wall -std=c++11  
 
@@ -172,13 +172,9 @@ counter.o: counter.cpp counter.h
 clean:  
         rm *.o p4  
 
-In class, we will go over what this means and how it works.  For now, create the file.  The make utility uses a file called “makefile” by default.  Then create the executable p4 by typing: 
+In class, we will go over what this means and how it works.  For now, create the file.  The make utility uses a file called “makefile” by default.  Then create the executable p4 by typing: make
 
-              make
-
-To remove the old files, type:
-
-              make clean
+To remove the old files, type: make clean
 
 ## Deliverables
               Upload files counter.h, counter.cpp, testcounter.cpp, and makefile to Gradescope.
