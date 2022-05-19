@@ -1,18 +1,15 @@
 # Program 2 - Matrix Multiplication
-## Due Date/Time:
-The program is due uploaded to Gradescope by the end of day on the due date.  The name of your program must be  p2.c
-
-
 ## The Program:
-For this assignment, you will multiply two matrices and print the result.  If A is an m x n matrix, and B is an n x p matrix, then the product matrix C, which is A x B, is defined to be the m x p matrix whose entry in the ith row and the jth column is the sum of the products of corresponding entries of the ith row of A and the jth column of B.  A standard algorithm is:
+For this assignment, you will multiply two matrices and print the result.  If A is an m x n matrix, and B is an n x p matrix, then the product matrix C, which is A x B, is defined to be the m x p matrix whose entry in the ith row and the jth column is the sum of the products of corresponding entries of the ith row of A and the jth column of B.  A standard algorithm is:  
 
-for(int i=0; i < m; i++)  
+for(int i=0; i < m; i++) {  
     for(int j=0; j < p; j++) {  
         C[i][j] = 0;  
-        for(int k=0; k < n; k++)  
+        for(int k=0; k < n; k++) {  
             C[i][j] += A[i][k] * B[k][j];  
         }  
-  
+    }   
+}  
 
 ## Input:
 Input will come from a text file, and the name of the file must be read from the command line.  The text file will take the following form.  The first three lines of the file contain the values m, n, and p, each on a line by themselves.  Following are two matrices, A followed by B with no blank lines, of the dimensions specified, one row per line.  Each row entry is separated by a space.   Example:  Given the following two matrices A and B:
@@ -30,7 +27,7 @@ The datafile will then have this format:
 
 
 ## Header File:
-For this assignment, you must use the header file p2.h provided by the instructor.  You may get a copy of this file here:  p2.h Download p2.h
+For this assignment, you must use the header file p2.h provided by the instructor.
 
 You are required to implement the three functions in this header file, and you may not create any additional functions in your program.  You must include this header file in your p2.c program as follows:
 
@@ -44,8 +41,8 @@ Your program will print the two matrices to be multiplied, and finally print the
  
 
 Matrix A contents:  
-    1    2   
-    3    4  
+    1    2   
+    3    4  
     5    6  
 
 Matrix B contents:  
