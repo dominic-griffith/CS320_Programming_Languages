@@ -5,7 +5,7 @@ One aspect of parsing a sentence in a programming language grammar is build a pa
 
 
 ## Task 1
-Download stackd.h  Download stackd.hfrom Piazza or Canvas.  Write answers to the following questions:
+Download stackd.h from Piazza or Canvas.  Write answers to the following questions:
 1. List the user-defined data types.
     * boolean_t, el_t, node_t, stack
 2. What is the purpose of #ifndef (and its associated #define and #endif).
@@ -14,7 +14,7 @@ Download stackd.h  Download stackd.hfrom Piazza or Canvas.  Write answers to the
     * Function prototypes are an essential part of an interface that defines a function’s names and return types as well as their parameters.
 
 ## Task 2
-Download stackd.c  Download stackd.c from Piazza or Canvas.  Perform the following steps.
+Download stackd.c from Piazza or Canvas.  Perform the following steps.
 1. Compile this file:  gcc -ansi -c stackd.c  Note many types are not defined. These definitions are in the header file
 2. Edit this file to use stackd.h, by adding:  #include ″stackd.h″ on the first line.  Recompile.
 3. Note the new file stackd.o.  What is a “.o” file?
@@ -28,7 +28,7 @@ Download stackd.c  Download stackd.c from Piazza or Canvas.  Perform the followi
     * Null means that it points to nothing (like 0 in java).
 
 ## Task 3
-Edit a new file p1.c  Download p1.c.  This will be the driver for the program and contains a main function.  It enforces an old standard: ANSI.  This file MUST compile and run on edoras.  
+Edit a new file p1.c  This will be the driver for the program and contains a main function.  It enforces an old standard: ANSI.  This file MUST compile and run on edoras.  
 1. Using a series of Push and Pop functions, simulate a postfix evaluation of the expression:  5 9 8 + 4 6 * * 7 * +
 Hint:  Push the numerical values.  Pop two operands when an operator is encountered. Push the result back on the stack.
 
