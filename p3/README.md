@@ -5,7 +5,7 @@ For this assignment, you will write a program in FORTRAN 95 to solve the Minimum
 
 Your project will consist of a single source code file,  p3.f95
 
-You will find the shortest route using the brute force method.  You must sum the distance traveled for each possible route, retaining the shortest distance found as your answer.  Thus, your program will have to generate all possible routes.   This is an NP-complete problem with complexity O(n!).    The algorithm to generate all possible routes is somewhat complex.   Pseudocode  Download Pseudocodewill outline the algorithm.  A sample program to generate the permutations, written in java:  Permute.java  Download Permute.java.
+You will find the shortest route using the brute force method.  You must sum the distance traveled for each possible route, retaining the shortest distance found as your answer.  Thus, your program will have to generate all possible routes.   This is an NP-complete problem with complexity O(n!).    The algorithm to generate all possible routes is somewhat complex.   Pseudocode will outline the algorithm.  A sample program to generate the permutations, written in java:  Permute.java.
 
 
 ## Input:
@@ -86,8 +86,8 @@ In this program you will use some or all of these Fortran features:
 
 Developing TSP
 
-Sample input 3 cities:  data3.txt Download data3.txt
+Sample input 3 cities:  data3.txt
 
-Sample input 4 cities:  data4.txt Download data4.txt
+Sample input 4 cities:  data4.txt
 
 Sample input 7 cities:  data7.txt 
